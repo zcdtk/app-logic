@@ -27,3 +27,12 @@ iBiz 前端模型，将此类具有公共业务需求的数据处理过程对象
 
 
 ## 触发流程
+
+
+{% mermaid %}
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+{% endmermaid %}
