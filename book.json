@@ -1,0 +1,35 @@
+{
+    "title": "应用逻辑简介",
+    "description": "应用逻辑简介",
+    "author": "王像",
+    "language": "zh-hans",
+    "gitbook": "3.2.2",
+    "root": ".",
+    "structure": {
+        "readme": "README.md"
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "search-plus@^0.0.11",
+        "anchor-navigation-ex",
+        "mermaid"
+    ],
+    "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "showLevel": true,
+            "associatedWithSummary": true,
+            "printLog": false,
+            "multipleH1": true,
+            "mode": "float",
+            "showGoTop":true,
+            "float": {
+                "floatIcon": "fa fa-navicon",
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        }
+    }
+}
