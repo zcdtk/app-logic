@@ -38,7 +38,7 @@ iBiz 前端模型，将此类具有公共业务需求的数据处理过程对象
 
 #### 逻辑事件
 
-逻辑事件主要是分发处理部件事件，其主要功能是从被指定的容器对象中获取数据，交给后续界面行为使用。
+逻辑事件主要处理部件事件，其主要功能是从被指定的容器对象中获取数据，交给后续界面行为使用。
 
 容器对象分别是视图和部件，两者的区别在于是在当前操作的 [控件容器]( https://modelapi.ibizlab.cn/#/net/ibizsys/model/control/IPSControlContainer ) 是否与 [部件数据容器]( https://modelapi.ibizlab.cn/#/net/ibizsys/model/control/IPSControlXDataContainer )  为同一个对象。
 
